@@ -1,0 +1,16 @@
+1)conda create -n masterai python=3.6
+
+2)conda install -c conda-forge tensorflow
+
+3)python -n pip install cma
+
+4)conda install -c anaconda mpi4y
+
+5)conda install -c kne pybox2d 
+  If issues persist with the 5th command then try the following alternatives, since box2d installation hs issues in latest python versions
+   [a]install swig,pyglet and upgrade pip
+   [b]pip install box2d-py --user
+   
+6)pip instll pillow
+
+7)pip install gym==0.9.4
